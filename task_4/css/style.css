@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=LXGW+WenKai+TC:regular,700&display=swap);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    color: #000;
+    line-height: 1.2;
+    font-family: "LXGW+WenKai+TC", sans-serif;
+    font-size: 1rem;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+li {
+    list-style: none;
+}
+a {
+    color: inherit;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+button {
+    cursor: pointer;
+    color: inherit;
+    background-color: inherit;
+}
+input {
+    width: 100%;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+
+/* Style */
+
+[class*="__cnt"] {
+    max-width: 76.875rem;
+    padding-inline: 0.9375rem;
+    margin: 0 auto;
+}
+.app {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.wrapper > main {
+    flex: 1 1 auto;
+}
+header,
+footer {
+    text-align: center;
+    padding: 0.9375rem;
+    background-color: #000;
+    color: #fff;
+	font-size: 1.375rem;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+main {
+    padding-top: 4.375rem;
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-weight: 700;
+}
+h1 {
+    font-size: 1.75rem;
+}
+h2 {
+    font-size: 1.625rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+h1:not(:last-child),
+h2:not(:last-child),
+h3:not(:last-child),
+p:not(:last-child),
+main:not(:last-child) {
+    margin-bottom: 0.9375rem;
+}
